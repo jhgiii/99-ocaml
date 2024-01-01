@@ -96,11 +96,6 @@ let flatten (xs: 'a node list): 'a list =
     assert (flatten [One "a"; Many [One "b"; Many [One "c" ;One "d"]; One "e"]] = ["a"; "b"; "c"; "d"; "e"])
 end
 
-(*Problem 08 -- Remove Duplicate Entries in a List*)
-module Problem08 = struct
-let compress
-end
-
 (* Problem 10 -- Run-length encoding of a list *)  
 module Problem10 = struct
   let encode (xs: 'a list): (int * string) list =
